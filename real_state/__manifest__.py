@@ -1,0 +1,46 @@
+{
+    'name': 'Real State Management',
+    'summary': 'Real estate property management module',
+    'description': '''
+        Real State Management provides a simple but production-oriented real estate management workflow
+        for properties, owners, buildings, tags, history tracking, and related sales.
+    ''',
+    'author': 'Hassan',
+    'maintainer': 'Hassan',
+    'website': 'https://github.com',
+    'category': 'Real Estate',
+    'version': '19.0.0.2.0',
+    'depends': ['base', 'sale_management', 'account', 'mail', 'contacts'],
+    'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
+        'data/sequence.xml',
+        'data/data.xml',
+        'views/base_menu.xml',
+        'views/property_view.xml',
+        'views/owner_view.xml',
+        'views/tag_view.xml',
+        'views/sale_order.xml',
+        'views/res_partner_view.xml',
+        'views/building_view.xml',
+        'views/property_history_view.xml',
+        'wizard/change_state_wizard_view.xml',
+        'reports/property_report.xml',
+    ],
+    'assets': {
+        'web.assets_backend': [
+            'real_state/static/src/css/property.css',
+            'real_state/static/src/components/listView/listView.css',
+            'real_state/static/src/components/listView/listView.js',
+            'real_state/static/src/components/listView/listView.xml',
+            'real_state/static/src/components/formView/formView.xml',
+            'real_state/static/src/components/formView/formView.js',
+            'real_state/static/src/components/formView/formView.css',
+        ],
+        'web.report_assets_common': ['real_state/static/src/css/font.css'],
+    },
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    'license': 'LGPL-3',
+}

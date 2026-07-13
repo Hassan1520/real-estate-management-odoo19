@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates xml:space="preserve">
+    <t t-name="real_state.ListView">
+        <div class="o_property_list_container">
+            <h1 class="list_title">Properties Overview</h1>
+
+            <button class="btn btn-primary m-1 p-1" t-on-click="toggleCreateForm">
+                <t t-if="state.showCreateForm">Close</t>
+                <t t-else="">New</t>
+            </button>
+
+            <t t-if="state.showCreateForm">
+                <FormView onRecordCreated="onRecordCreated" onCancel="toggleCreateForm.bind(this)"/>
+            </t>
+
+            <div class="table_wrapper o_property_list_container">
+                <table class="custom_property_table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Postcode</th>
+                            <th>Date Availability</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="state.records" t-as="record" t-key="record.id">
+                            <tr>
+                                <td><t t-esc="record.name"/></td>
+                                <td><t t-esc="record.postcode"/></td>
+                                <td><t t-esc="record.date_availability"/></td>
+                                <td><button class="btn btn-danger" t-on-click="deleteRecord.bind(this, record.id)">Delete</button></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </t>
+</templates>

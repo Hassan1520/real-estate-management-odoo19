@@ -1,0 +1,72 @@
+/* الحاوية الرئيسية */
+.o_property_list_container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    display: block !important;
+    height: auto !important;
+    /* أهم سطر عشان يظهر السكرول لو الداتا كتير */
+    overflow-y: auto !important;
+}
+
+/* العنوان */
+.list_title {
+    color: #714B67; /* لون أودو الشهير */
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-left: 5px solid #714B67;
+    padding-left: 15px;
+}
+
+/* تغليف الجدول عشان الـ Border Radius يظهر */
+.table_wrapper {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 50px;
+}
+
+/* الجدول نفسه */
+.custom_property_table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto !important; /* لضمان إن الصفوف ماتاخدش حجم ثابت */
+}
+
+/* رأس الجدول */
+.custom_property_table thead tr {
+    background-color: #714B67;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.custom_property_table th,
+.custom_property_table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* شكل الصفوف */
+.custom_property_table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.custom_property_table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.custom_property_table tbody tr:last-of-type {
+    border-bottom: 2px solid #714B67;
+}
+
+/* تأثير عند الوقوف بالماوس */
+.custom_property_table tbody tr:hover {
+    background-color: #f2eef1;
+    cursor: pointer;
+}
+
+/* تنسيق حقل التاريخ */
+.custom_property_table td:last-child {
+    color: #666;
+    font-style: italic;
+}

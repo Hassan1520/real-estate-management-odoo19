@@ -1,0 +1,21 @@
+<odoo>
+    <data noupdate="1">
+        <record id="property01" model="property">
+            <field name="name">property01</field>
+        </record>
+
+        <record id="property02" model="property">
+            <field name="name">property02</field>
+        </record>
+
+        <record id="property03" model="property">
+            <field name="name">property03</field>
+        </record>
+
+        <record id="property04" model="property">
+            <field name="name">property04</field>
+        </record>
+
+    </data>
+
+</odoo>

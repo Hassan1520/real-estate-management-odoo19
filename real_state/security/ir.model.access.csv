@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_user,access_property_user,model_property,group_property_user,1,1,1,0
+access_property_manager,access_property_manager,model_property,group_property_manager,1,1,1,1
+access_owner_user,access_owner_user,model_owner,group_property_user,1,0,0,0
+access_owner_manager,access_owner_manager,model_owner,group_property_manager,1,1,1,1
+access_tag_user,access_tag_user,model_tag,group_property_user,1,0,0,0
+access_tag_manager,access_tag_manager,model_tag,group_property_manager,1,1,1,1
+access_property_line_user,access_property_line_user,model_property_line,group_property_user,1,1,1,0
+access_property_line_manager,access_property_line_manager,model_property_line,group_property_manager,1,1,1,1
+access_history_user,access_history_user,model_property_history,group_property_user,1,1,1,0
+access_history_manager,access_history_manager,model_property_history,group_property_manager,1,1,1,1
