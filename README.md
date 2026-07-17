@@ -46,3 +46,29 @@ This repository demonstrates how to build a maintainable Odoo custom module usin
 - Expand reporting and export capabilities
 - Add more automated test coverage for inheritance logic
 
+## 📸 Screenshots
+
+### Property List
+
+![Property List](screenshots/property_list.png)
+
+### Property Form
+
+![Property Form](screenshots/property_form.png)
+
+### Owner Form
+
+![Owner Form](screenshots/owner_form.png)
+
+### Building Form
+
+![Building Form](screenshots/building_form.png)
+
+### Wizard
+
+![Wizard](screenshots/wizard.png)
+
+### Report
+
+![Report](screenshots/report.png)
+
