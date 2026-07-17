@@ -3,7 +3,7 @@
 Real State is a production-oriented Odoo 19 module for managing real-estate properties, owners, buildings, tags, history tracking, and related sales workflows. It is designed as a practical, open-source example of a clean custom module structure for ERP teams and developers.
 
 ## Why this project exists
-This repository demonstrates how to build a maintainable Odoo custom module using modern conventions: clear model design, secure access control, workflow logic, XML views, reporting, and automated tests.
+This repository demonstrates how to build a maintainable Odoo custom module using modern conventions: clear model design, secure access control, workflow logic, XML views, reporting
 
 ## Features
 - Property lifecycle management through draft, pending, sold, and closed states
@@ -19,7 +19,6 @@ This repository demonstrates how to build a maintainable Odoo custom module usin
 - Python 3
 - XML views and QWeb reports
 - CSV-based ACL configuration
-- Unit tests with TransactionCase
 
 ## Installation
 1. Clone or copy the module into your Odoo custom addons path.
@@ -34,7 +33,6 @@ This repository demonstrates how to build a maintainable Odoo custom module usin
 - wizard/: transient state-change wizard
 - reports/: QWeb and Excel report definitions
 - data/: sequences and initialization data
-- tests/: automated regression tests
 
 ## Module Architecture
 - Core models: property, owner, tag, building, property.history
@@ -48,5 +46,3 @@ This repository demonstrates how to build a maintainable Odoo custom module usin
 - Expand reporting and export capabilities
 - Add more automated test coverage for inheritance logic
 
-## License
-This project is licensed under the MIT License.
