@@ -50,25 +50,25 @@ This repository demonstrates how to build a maintainable Odoo custom module usin
 
 ### Property List
 
-![Property List](screenshots/property_list.png)
+![Property List](real_state/screenshots/property_list.png)
 
 ### Property Form
 
-![Property Form](screenshots/property_form.png)
+![Property Form](real_state/screenshots/property_form.png)
 
 ### Owner Form
 
-![Owner Form](screenshots/owner_form.png)
+![Owner Form](real_state/screenshots/owner_form.png)
 
 ### Building Form
 
-![Building Form](screenshots/building_form.png)
+![Building Form](real_state/screenshots/building_form.png)
 
 ### Wizard
 
-![Wizard](screenshots/wizard.png)
+![Wizard](real_state/screenshots/wizard.png)
 
 ### Report
 
-![Report](screenshots/report.png)
+![Report](real_state/screenshots/report.png)
 
